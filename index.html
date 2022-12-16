@@ -5,8 +5,66 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Create a news word by word using html form</title>
+        <link rel="stylesheet" href="./css/style.css" >
+        <style>
+            
+        </style>
+        <script>
+
+
+            // before the closing of head tag
+        </script>
     </head>
     <body>
         
+        <form>
+            
+            <input type="text" name="news">
+            <input type="submit" onclick="suraj(event)">
+            <input type="button" value="submit">
+        </form>
+        
+        <p id="mynews"></p>
+
+        <script>
+            // here i define the function
+
+            let object = {
+                //1.property:value
+                //2.function/method
+            }
+
+
+                // any veriabl which is define outside the function that is global variabl
+
+                // object.method
+
+            let  s = document.querySelector('input[name="news"]');
+
+            let myn = document.getElementById("mynews");
+
+            function suraj(e){          // formal perameter name is anything
+              
+               // object.method 
+                e.preventDefault();
+                // function body
+               // alert("checked");
+               console.log(s.value);
+              // myn.innerHTML =  myn.innerHTML + s.value ;
+
+              myn.innerHTML += s.value ;
+            }
+
+           
+
+        </script>
+
+        <script src="./js/script.js"></script>
+        <script>
+          
+
+
+            // before the closing of body tag
+        </script>
     </body>
 </html>
